@@ -50,6 +50,10 @@ public class HipChat
 	    	this.hostname = hostname;
     }
 
+    public String getHostname() {
+	    return this.hostname;
+    }
+
     public String getAuthToken()
     {
         return this.authToken;
